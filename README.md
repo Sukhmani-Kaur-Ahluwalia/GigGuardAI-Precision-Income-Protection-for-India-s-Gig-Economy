@@ -47,3 +47,6 @@ Our system architecture is designed for high-concurrency and real-time responsiv
 
 ## 06. Team GigGuard
 We are a team of 5 women engineers dedicated to solving real-world economic volatility through deterministic engineering and empathetic design.
+
+video:
+https://youtu.be/A2AwzmBkq0I?si=QsJP0d81Vjpe4Rs3

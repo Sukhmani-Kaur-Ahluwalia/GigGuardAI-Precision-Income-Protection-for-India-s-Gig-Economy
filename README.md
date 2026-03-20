@@ -19,3 +19,31 @@ Gig work is "feast or famine." Our **Stability Vault** allows workers to set asi
 
 ### C. The Strategic Payout Prompt
 When a disruption is verified via API, the app doesn't just push money; it offers a choice. The worker can **Withdraw Immediately** for urgent needs or **Reinvest in the Vault** to build long-term financial health.
+## 04. Technical Architecture
+Our system architecture is designed for high-concurrency and real-time responsiveness:
+* **Frontend:** React Native (Mobile-First for workers in the field).
+* **Backend:** Node.js environment with a Firebase real-time database.
+* **Orchestration:** A Parametric Trigger Engine that monitors OpenWeatherMap and regional traffic APIs.
+* **AI Layer:** 1. **Risk Profiler:** Calculates weekly premiums based on hyper-local disruption history.
+    2. **Fraud Guard:** Uses GPS-velocity and accelerometer data to ensure claims are only triggered for partners actually active in the affected zone.
+
+## 05. The 6-Week Execution Path
+
+### Phase 1: Foundation (Current)
+- Persona deep-dive and risk-threshold mapping.
+- Architecture design and mobile UI wireframing.
+- **Deadline: March 20**
+
+### Phase 2: Automation (Weeks 3-4)
+- Developing the Weekly Premium Calculation engine.
+- Integration of Parametric Triggers (Weather/Traffic).
+- Setting up the "Auto-Pilot" selection logic.
+
+### Phase 3: Scale & Optimization (Weeks 5-6)
+- Implementing the "Stability Vault" savings logic.
+- Building the AI-driven Fraud Detection module.
+- Finalizing the simulated instant-payout gateway.
+- **Final Submission: April 17**
+
+## 06. Team GigGuard
+We are a team of 5 women engineers dedicated to solving real-world economic volatility through deterministic engineering and empathetic design.

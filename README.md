@@ -50,25 +50,25 @@ We are a team of 5 women engineers dedicated to solving real-world economic vola
 
 ## Adversarial Defense & Anti-Spoofing Strategy
 
-[span_2](start_span)[span_3](start_span)In response to emerging threats of coordinated GPS-spoofing syndicates, GigGuard AI has implemented a multi-layered defense architecture[span_2](end_span)[span_3](end_span). [span_4](start_span)[span_5](start_span)We recognize that simple coordinate-based verification is insufficient; therefore, our platform utilizes "Physical Consistency Checks" to protect our liquidity pool from fraudulent mass-claims[span_4](end_span)[span_5](end_span).
+In response to emerging threats of coordinated GPS-spoofing syndicates, GigGuard AI has implemented a multi-layered defense architecture.We recognize that simple coordinate-based verification is insufficient; therefore, our platform utilizes "Physical Consistency Checks" to protect our liquidity pool from fraudulent mass-claims.
 
 ### 1. Differentiation: Multi-Modal AI Verification
-[span_6](start_span)Our AI/ML architecture distinguishes genuine stranded delivery partners from bad actors by analyzing the **entropy of movement**[span_6](end_span). 
-* **[span_7](start_span)Kinetic Noise Analysis:** Spoofing applications often generate "too perfect" or "unnaturally static" location data[span_7](end_span). [span_8](start_span)Our model uses an LSTM (Long Short-Term Memory) network to identify the unique "noise" of a human on a bike—micro-adjustments in GPS coordinates that are absent in artificial spoofing[span_8](end_span).
-* **Temporal Logic:** We track the "Time-to-Disruption" path. [span_9](start_span)If a worker was active in a clear zone and suddenly "teleports" into a red-alert weather zone without a logical travel duration, the claim is flagged instantly for manual review[span_9](end_span).
+Our AI/ML architecture distinguishes genuine stranded delivery partners from bad actors by analyzing the **entropy of movement**. 
+* **Kinetic Noise Analysis:** Spoofing applications often generate "too perfect" or "unnaturally static" location data.Our model uses an LSTM (Long Short-Term Memory) network to identify the unique "noise" of a human on a bike—micro-adjustments in GPS coordinates that are absent in artificial spoofing. 
+* **Temporal Logic:** We track the "Time-to-Disruption" path.If a worker was active in a clear zone and suddenly "teleports" into a red-alert weather zone without a logical travel duration, the claim is flagged instantly for manual review. 
 
 ### 2. The Data: Beyond the Coordinate
-[span_10](start_span)To detect sophisticated fraud rings, GigGuard AI analyzes a fusion of secondary sensor data that is significantly harder to spoof in a coordinated manner[span_10](end_span):
-* **IMU (Inertial Measurement Unit) Fusion:** We cross-reference GPS with the device’s accelerometer and gyroscope. [span_11](start_span)A partner truly trapped in a severe storm should exhibit vibration patterns consistent with high winds or an idling engine, rather than the "perfect stillness" of a home environment[span_11](end_span).
-* **Barometric Pressure Sensing:** Many modern smartphones include barometers. During extreme weather events (like the "red-alert" storms used by the syndicate), there is a sharp drop in atmospheric pressure. [span_12](start_span)We verify if the device’s reported pressure matches local meteorological station data for that micro-grid[span_12](end_span).
-* **Network Environment Mapping:** We analyze visible Wi-Fi SSIDs and Cell Tower IDs. [span_13](start_span)Spoofing apps only alter GPS coordinates; they cannot fake the physical presence of surrounding local routers or cell towers[span_13](end_span).
-* **[span_14](start_span)System Integrity Profiling:** Our app scans for "Mock Location" flags in the OS, developer mode activation, and unusual CPU/thermal spikes associated with resource-heavy spoofing background processes[span_14](end_span).
+To detect sophisticated fraud rings, GigGuard AI analyzes a fusion of secondary sensor data that is significantly harder to spoof in a coordinated manner. 
+* **IMU (Inertial Measurement Unit) Fusion:** We cross-reference GPS with the device’s accelerometer and gyroscope.A partner truly trapped in a severe storm should exhibit vibration patterns consistent with high winds or an idling engine, rather than the "perfect stillness" of a home environment.
+* **Barometric Pressure Sensing:** Many modern smartphones include barometers. During extreme weather events (like the "red-alert" storms used by the syndicate), there is a sharp drop in atmospheric pressure.We verify if the device’s reported pressure matches local meteorological station data for that micro-grid.
+* **Network Environment Mapping:** We analyze visible Wi-Fi SSIDs and Cell Tower IDs.Spoofing apps only alter GPS coordinates; they cannot fake the physical presence of surrounding local routers or cell towers. 
+* **System Integrity Profiling:** Our app scans for "Mock Location" flags in the OS, developer mode activation, and unusual CPU/thermal spikes associated with resource-heavy spoofing background processes[span_14](end_span).
 
 ### 3. UX Balance: The "Verified Hold" Workflow
-[span_15](start_span)We ensure that honest gig workers experiencing genuine network drops or sensor lag are not unfairly penalized[span_15](end_span):
+We ensure that honest gig workers experiencing genuine network drops or sensor lag are not unfairly penalized. 
 * **The "Conditional Payout" Flow:** If a claim is flagged as "Suspicious" but not "Proven Fraud," it is placed on a temporary hold. 
-* **[span_16](start_span)Secondary Proof-of-Presence:** To release the funds, the partner can provide a 5-second **Video Scan** of their immediate environment or perform a **"Digital Handshake"** by checking in via a merchant's QR code at the nearest open delivery hub[span_16](end_span).
-* **Dynamic Trust Scoring:** We implement a reputation-based system. [span_17](start_span)Partners with long-term, consistent delivery histories are granted faster automated approval, while newly created accounts or accounts moving in "syndicate patterns" face higher verification thresholds[span_17](end_span).
+* **Secondary Proof-of-Presence:** To release the funds, the partner can provide a 5-second **Video Scan** of their immediate environment or perform a **"Digital Handshake"** by checking in via a merchant's QR code at the nearest open delivery hub.
+* **Dynamic Trust Scoring:** We implement a reputation-based system.Partners with long-term, consistent delivery histories are granted faster automated approval, while newly created accounts or accounts moving in "syndicate patterns" face higher verification thresholds. 
 
 video:
 https://youtu.be/A2AwzmBkq0I?si=QsJP0d81Vjpe4Rs3

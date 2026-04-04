@@ -1,4 +1,4 @@
-# GigGuard AI: Precision Income Protection for India's Gig Economy
+# GigGuard Protection: Precision Income Protection for India's Gig Economy
 
 ## 01. Vision
 GigGuard AI is a financial resilience platform engineered specifically for platform-based delivery partners. In an industry where a single monsoon storm or a local curfew can wipe out 30% of a worker's weekly earnings, we provide a data-driven safety net. 

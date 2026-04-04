@@ -1,0 +1,10 @@
+.git
+.gitignore
+.agents
+node_modules
+**/node_modules
+artifacts/gigguard/dist
+artifacts/api-server/dist
+lib/**/dist
+*.log
+attached_assets/*.zip
